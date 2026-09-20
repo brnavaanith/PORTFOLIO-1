@@ -149,28 +149,28 @@ export const certificationsList: CertificationItem[] = [
     issuer: 'Infosys',
     title: 'Basics of Python',
     imagePlaceholderLabel: 'Original Infosys Certificate',
-    imageUrl: '/images/certificates/infosys.jpg'
+    imageUrl: `${import.meta.env.BASE_URL}images/certificates/infosys.jpg`
   },
   {
     id: 'cert-be10x',
     issuer: 'be10x',
     title: 'AI Tools & ChatGPT Workshop',
     imagePlaceholderLabel: 'Original be10x Certificate',
-    imageUrl: '/images/certificates/be10x.jpg'
+    imageUrl: `${import.meta.env.BASE_URL}images/certificates/be10x.jpg`
   },
   {
     id: 'cert-udemy',
     issuer: 'Udemy',
     title: 'Object Oriented Programming in C++',
     imagePlaceholderLabel: 'Original Udemy Certificate',
-    imageUrl: '/images/certificates/udemy.jpg'
+    imageUrl: `${import.meta.env.BASE_URL}images/certificates/udemy.jpg`
   },
   {
     id: 'cert-simplilearn',
     issuer: 'Simplilearn SkillUp',
     title: 'Introduction to C++',
     imagePlaceholderLabel: 'Original Simplilearn Certificate',
-    imageUrl: '/images/certificates/simplilearn.jpg'
+    imageUrl: `${import.meta.env.BASE_URL}images/certificates/simplilearn.jpg`
   }
 ];
 
@@ -206,7 +206,7 @@ export const fideAchievement: FideAchievement = {
   organization: 'Federation Internationale des Échecs (FIDE)',
   awardedYear: '2025',
   imagePlaceholderLabel: 'Original FIDE ACM Certificate',
-  imageUrl: '/images/certificates/fide.jpg'
+  imageUrl: `${import.meta.env.BASE_URL}images/certificates/fide.jpg`
 };
 
 export const passionsAndInterests: PassionItem[] = [
